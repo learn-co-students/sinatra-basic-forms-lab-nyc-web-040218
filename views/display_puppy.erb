@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <% new_pup = Puppy.new(@params[:name], @params[:breed], @params[:age]) %>
+    <p>Puppy Name: <%= new_pup.name %></p>
+    <p>Puppy Breed: <%= new_pup.breed%></p>
+    <p>Puppy Age: <%= new_pup.age%></p>
+  </body>
+</html>
